@@ -13,4 +13,6 @@ target_include_directories(
         PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/private"
 )
 
-target_link_libraries(Rift_Runtime_Logging RiftEngine_Core_Runtime)
+rift_resolve_module_libs("Rift.Core.Runtime" RIFT_LOGGER_DEPS)
+
+target_link_libraries(Rift_Runtime_Logging ${RIFT_LOGGER_DEPS})
