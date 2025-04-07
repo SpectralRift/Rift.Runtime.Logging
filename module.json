@@ -1,0 +1,18 @@
+{
+  "module": {
+    "name": "Rift.Runtime.Logging",
+    "category": "Runtime",
+    "version": "0.0.1",
+    "author": "r0neko",
+    "description": "Core Logging Module",
+    "homepage": "https://github.com/SpectralRift/Rift.Runtime.Logging",
+    "type": "monolithic",
+    "cmakeProject": "Rift_Runtime_Logging"
+  },
+  "dependencies": [
+    "Rift.Core.Runtime"
+  ],
+  "supportedTargets": [
+    "all"
+  ]
+}
